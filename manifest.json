@@ -1,0 +1,20 @@
+{
+  "name": "How to build a PWA w/ service worker",
+  "short_name": "LearnPWA vanilla",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "Red",
+  "theme_color": "pink",
+  "icons": [
+    {
+      "src": "/media/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/media/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
