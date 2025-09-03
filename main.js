@@ -1,3 +1,7 @@
+// Request notification permission on page load
+if ("Notification" in window && Notification.permission !== "granted") {
+  Notification.requestPermission();
+}
 if ("serviceWorker" in navigator) {
   // Register our service worker file
   window.addEventListener("load", () => {
